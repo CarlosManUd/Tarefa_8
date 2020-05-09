@@ -2,7 +2,7 @@ package tarea8;
 
 /**
  *
- * @author ivansteuerberg
+ * @author carli
  */
 public class Operaciones {
     

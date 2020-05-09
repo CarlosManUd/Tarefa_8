@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author ivansteuerberg
+ * @author carli
  */
 public class Tarea8 {
 
