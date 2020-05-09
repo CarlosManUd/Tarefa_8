@@ -59,20 +59,23 @@ public class Operaciones {
     
     
     public static void buscarObxecto(Integer[][] array, Integer valor) {
-        loop: {
+        int contar=0;
             for (int i = 0; i < array.length; i++) {
                 for (int j = 0; j < array[i].length; j++) {
+                    if (contar==1)
+                        break;
                     if (array[i][j]!= null) {
                         if (array[i][j].equals(valor)) {
                             System.out.println("Fila: " + i + "\nPosición: " + j);
-                            break loop;
+                            contar=1;
                         }
                     }
                 }
             }
+            if (contar==0)
             System.out.println("-1");
         }
-    }
+    
     
    
     
